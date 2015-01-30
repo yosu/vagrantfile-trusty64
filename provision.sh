@@ -11,7 +11,7 @@ mkdir $PROVISION_DIR && cd $PROVISION_DIR
 
 ## Git ##
 echo Installing ${GIT_VERSION} ...
-apt-get install -y zlib1g-dev gettext libcurl4-openssl-dev
+apt-get update && apt-get install -y zlib1g-dev gettext libcurl4-openssl-dev
 wget https://www.kernel.org/pub/software/scm/git/${GIT_VERSION}.tar.gz
 tar zxf ${GIT_VERSION}.tar.gz
 cd ${GIT_VERSION}
