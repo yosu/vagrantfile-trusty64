@@ -1,7 +1,7 @@
 #!/bin/bash
 
 PROVISION_DIR="/var/vagrant_provision"
-GIT_VERSION="git-2.2.0"
+GIT_VERSION="git-2.3.0"
 
 if [ -e "$PROVISION_DIR" ]; then
     exit 0
